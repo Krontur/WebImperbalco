@@ -1,0 +1,40 @@
+/*
+ * Created with iconvau.lt
+ */
+
+@font-face {
+  font-family: "iconvault";
+  src: url("iconvault-webfont.eot");
+  src: url("iconvault-webfont.eot?#iefix") format("embedded-opentype"),
+       url("iconvault-webfont.woff") format("woff"),
+       url("iconvault-webfont.ttf") format("truetype"),
+       url("iconvault-webfont.svg#iconvault") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon-iconite:before,
+.icon-iconite2:before,
+.icon-iconsocial:before,
+.icon-iconregistered:before,
+.icon-iconworks:before,
+.icon-icongallery:before {
+  font-family: "iconvault";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  display: inline-block;
+  font-size: 1.25em;
+  text-decoration: none;
+}
+
+.icon-iconite:before { content: "\f100"; }
+.icon-iconite2:before { content: "\f101"; }
+.icon-iconsocial:before { content: "\f102"; }
+.icon-iconregistered:before { content: "\f103"; }
+.icon-iconworks:before { content: "\f104"; }
+.icon-icongallery:before { content: "\f105"; }
